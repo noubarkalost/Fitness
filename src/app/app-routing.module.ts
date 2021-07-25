@@ -16,6 +16,9 @@ const routes: Routes = [
   },
   {
     path:"trainer", loadChildren: ()=>import('./trainer/trainer.module').then(mod=>mod.TrainerModule)
+  },
+  {
+    path:"gallery", loadChildren: ()=>import('./gallery/gallery.module').then(mod=>mod.GalleryModule)
   }
 ];
 
