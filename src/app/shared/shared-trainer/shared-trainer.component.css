@@ -92,7 +92,6 @@
   background-color: #fff;
   transition: ease-in all 0.5s;
 }
-
 #train:hover .trainer h3 {
   color: #00274a;
   transition: ease-in all 0.5s;
