@@ -6,9 +6,6 @@ import { AboutHeaderComponent } from './about-header/about-header.component';
 import { SharedModule } from '../shared/shared.module';
 
 
-
-
-
 @NgModule({
   declarations: [
     AboutComponent,
@@ -18,9 +15,6 @@ import { SharedModule } from '../shared/shared.module';
     CommonModule,
     AboutRoutingModule,
     SharedModule
-  ],
-  exports: [
-
   ]
 })
 export class AboutModule { }
