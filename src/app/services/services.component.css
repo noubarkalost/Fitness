@@ -1,0 +1,44 @@
+.services {
+  background-color: #00274a;
+  padding: 60px 0 30px 0;
+  margin-top: 90px;
+}
+
+.services .titlepage {
+  text-align: center;
+}
+
+.services .titlepage h2 {
+  color: #fff;
+}
+
+.services .titlepage h2::before {
+  background-color: #000000;
+}
+
+.services .titlepage p {
+  color: #fff;
+  font-size: 17px;
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.se_img {
+  text-align: center;
+  background-color: #000;
+  margin-bottom: 30px;
+}
+
+.se_img figure {
+  margin: 0;
+}
+
+.se_img figure img {
+  width: 100%;
+  transition: all .5s;
+}
+
+.se_img figure img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
