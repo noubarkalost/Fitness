@@ -11,5 +11,5 @@ export class AboutHeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+hide = 'none'
 }
