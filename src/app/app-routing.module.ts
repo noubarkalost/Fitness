@@ -13,6 +13,9 @@ const routes: Routes = [
   },
   {
     path:"news", loadChildren: ()=>import('./news/news.module').then(mod=>mod.NewsModule)
+  },
+  {
+    path:"trainer", loadChildren: ()=>import('./trainer/trainer.module').then(mod=>mod.TrainerModule)
   }
 ];
 

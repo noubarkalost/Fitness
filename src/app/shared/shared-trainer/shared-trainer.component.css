@@ -1,0 +1,118 @@
+
+.trainers {
+  background: url(../../../assets/images/tra_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 60px 0 30px 0;
+  margin-top: 60px;
+}
+
+.trainers .titlepage {
+  text-align: center;
+}
+
+.trainers .titlepage h2 {
+  color: #fff;
+}
+
+.trainers .titlepage h2::before {
+  background-color: #fff;
+}
+
+.trainers .titlepage p {
+  color: #fff;
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+.trainers .trainer_box {
+  text-align: left;
+  margin-bottom: 30px;
+  transition: ease-in all 0.5s;
+}
+
+.trainers .trainer_box .trainer_img {
+  overflow: hidden;
+}
+
+.trainers .trainer_box .trainer_img figure {
+  margin: 0;
+}
+
+.trainers .trainer_box .trainer_img figure img {
+  width: 100%;
+  transition: all .5s;
+}
+
+.trainers .trainer_box .trainer_img figure img:hover {
+  transform: scale(1.2);
+}
+
+.trainers .trainer_box .trainer {
+  padding: 33px 30px;
+  text-align: center;
+}
+
+.trainers .trainer_box .trainer h3 {
+  color: #fff;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  transition: ease-in all 0.5s;
+  margin: auto;
+}
+
+.trainers .trainer_box .trainer p {
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  transition: ease-in all 0.5s;
+}
+
+#trai:hover.trainer_box {
+  background-color: #fff;
+  transition: ease-in all 0.5s;
+}
+
+#trai:hover .trainer h3 {
+  color: #00274a;
+  transition: ease-in all 0.5s;
+}
+
+#trai:hover .trainer p {
+  color: #000000;
+  transition: ease-in all 0.5s;
+}
+
+#train:hover.trainer_box {
+  background-color: #fff;
+  transition: ease-in all 0.5s;
+}
+
+#train:hover .trainer h3 {
+  color: #00274a;
+  transition: ease-in all 0.5s;
+}
+
+#train:hover .trainer p {
+  color: #000000;
+  transition: ease-in all 0.5s;
+}
+#tra:hover.trainer_box {
+  background-color: #fff;
+  transition: ease-in all 0.5s;
+}
+
+#tra:hover .trainer h3 {
+  color: #00274a;
+  transition: ease-in all 0.5s;
+}
+
+#tra:hover .trainer p {
+  color: #000000;
+  transition: ease-in all 0.5s;
+}
