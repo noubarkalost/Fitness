@@ -5,9 +5,6 @@ const routes: Routes = [
   {
     path:"home", loadChildren: ()=>import('./home/home.module').then(mod=>mod.HomeModule),
     data: { applyPreload : true}
-  },{
-    path:"**", loadChildren: ()=>import('./home/home.module').then(mod=>mod.HomeModule),
-    data: { applyPreload : true}
   },
   {
     path:"services", loadChildren: ()=>import('./services/services.module').then(mod=>mod.ServicesModule),
