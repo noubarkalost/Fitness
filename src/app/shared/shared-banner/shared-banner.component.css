@@ -93,3 +93,90 @@
 .carousel-indicators {
     display: none;
 }
+
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+  #myCarousel a.carousel-control-prev {
+    left: 7%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .stewart h1 {
+    font-size: 79px;
+    line-height: 73px;
+  }
+  #myCarousel a.carousel-control-prev {
+    left: 4%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .stewart span {
+    font-size: 35px;
+    line-height: 29px;
+  }
+  .carousel-item img {
+    height: 500px;
+  }
+  .stewart h1 {
+    font-size: 61px;
+    line-height: 41px;
+  }
+  #myCarousel a.carousel-control-prev {
+    left: 1%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .carousel-item img {
+    min-height: 570px;
+  }
+  .stewart span {
+    font-size: 35px;
+    line-height: 29px;
+  }
+  .stewart h1 {
+    font-size: 53px;
+    line-height: 41px;
+  }
+  #myCarousel a.carousel-control-next {
+    right: 68%;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .stewart span {
+    font-size: 25px;
+    line-height: 23px;
+  }
+  .stewart h1 {
+    font-size: 34px;
+    padding-bottom: 27px;
+    line-height: 30px;
+  }
+  #myCarousel a.carousel-control-next {
+    right: 60%;
+  }
+  .stewart .read_more {
+    margin-top: 30px;
+  }
+  .carousel-item img {
+    min-height: 445px;
+  }
+  #myCarousel a.carousel-control-next,
+  #myCarousel a.carousel-control-prev {
+    top: 86%;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+  }
+  .titlepage h2 {
+    font-size: 28px;
+  }
+  .main_form .send_btn {
+    margin-bottom: 30px;
+  }
+}

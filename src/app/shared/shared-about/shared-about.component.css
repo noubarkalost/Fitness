@@ -38,3 +38,23 @@
 .about_img figure img:hover {
   transform: scale(1.2);
 }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .about .titlepage {
+    max-width: inherit;
+    margin-bottom: 30px;
+  }}
+
+@media (max-width: 575px) {
+
+  .about .titlepage {
+    max-width: inherit;
+    margin-bottom: 30px;
+  }
+  .titlepage h2 {
+    font-size: 28px;
+  }
+  .main_form .send_btn {
+    margin-bottom: 30px;
+  }
+}
