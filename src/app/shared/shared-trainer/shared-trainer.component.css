@@ -1,4 +1,3 @@
-
 .trainers {
   background: url(../../../assets/images/tra_bg.jpg);
   background-repeat: no-repeat;
@@ -84,34 +83,6 @@
 }
 
 #trai:hover .trainer p {
-  color: #000000;
-  transition: ease-in all 0.5s;
-}
-
-#train:hover.trainer_box {
-  background-color: #fff;
-  transition: ease-in all 0.5s;
-}
-#train:hover .trainer h3 {
-  color: #00274a;
-  transition: ease-in all 0.5s;
-}
-
-#train:hover .trainer p {
-  color: #000000;
-  transition: ease-in all 0.5s;
-}
-#tra:hover.trainer_box {
-  background-color: #fff;
-  transition: ease-in all 0.5s;
-}
-
-#tra:hover .trainer h3 {
-  color: #00274a;
-  transition: ease-in all 0.5s;
-}
-
-#tra:hover .trainer p {
   color: #000000;
   transition: ease-in all 0.5s;
 }

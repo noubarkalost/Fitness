@@ -1,86 +1,17 @@
-.gallery {
-  background-color: #00274a;
-  margin-top: 80px;
-  padding: 60px 0 30px 0;
+.h2 {
+  margin-bottom: 25px;
 }
-
-.gallery .titlepage h2 {
+.h2-gallery-services {
   color: #fff;
 }
-
-.gallery .titlepage h2::before {
+.h2-gallery-services::before {
   background-color: #000;
   top: 65px;
 }
-
-.gallery .titlepage p {
+.h2-trainer {
   color: #fff;
-  font-size: 17px;
-  line-height: 28px;
-  margin-top: 30px;
 }
 
-.gallery .gallery_box {
-  overflow: hidden;
-  margin-bottom: 30px;
-  transition: ease-in all 0.4s;
-}
-
-.gallery .gallery_img :hover {
-  transform: scale(1.2);
-  transition: ease-in all 0.3s;
-}
-
-.gallery .gallery_img {
-  width: 100%;
-  transition: ease-in all 0.3s;
-  margin-bottom: 30px;
-  display: block;
-  overflow: hidden;
-}
-
-.gallery .gallery_img img {
-  width: 100%;
-  transition: ease-in all 0.3s;
-  display: block;
-}
-.about {
+.h2-trainer::before {
   background-color: #fff;
-  padding-top: 80px;
-}
-
-.about .titlepage {
-  text-align: left;
-  padding-bottom: 0;
-  max-width: 443px;
-  width: 100%;
-  float: right;
-}
-
-.about .titlepage h2 {
-  margin-bottom: 25px;
-}
-
-.about .titlepage p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  color: #090808;
-}
-
-.about_img {
-  overflow: hidden;
-}
-
-.about_img figure {
-  margin: 0;
-}
-
-.about_img figure img {
-  width: 100%;
-  transition: all .5s;
-}
-
-.about_img figure img:hover {
-  transform: scale(1.2);
 }

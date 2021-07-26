@@ -25,6 +25,10 @@ const routes: Routes = [
   {
     path:"gallery", loadChildren: ()=>import('./gallery/gallery.module').then(mod=>mod.GalleryModule),
     data: { applyPreload : true}
+  },
+  {
+    path:"contact", loadChildren: ()=>import('./contact/contact.module').then(mod=>mod.ContactModule),
+    data: { applyPreload : true}
   }
 ];
 
